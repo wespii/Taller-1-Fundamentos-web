@@ -62,3 +62,11 @@ Fuente consultada: [MDN: img](https://developer.mozilla.org/es/docs/Web/HTML/Ele
 ## VerificaciÃ³n final
 
 Abrir `index.html` en un navegador permite comprobar la navegaciÃ³n interna, las imÃ¡genes, la tabla y el formulario. La validaciÃ³n formal puede realizarse con el [validador HTML del W3C](https://validator.w3.org/). El documento contiene un Ãºnico `h1`, controles con `label` y enlaces internos con destinos existentes.
+
+## Lista de comprobación
+
+- Documento con un único h1 y estructura HTML5 completa.
+- Navegación interna, enlaces externos y enlace mailto.
+- Imágenes locales con rutas relativas y texto alternativo.
+- Tabla con cinco asignaturas y formulario con controles variados.
+- Sin hojas de estilo, JavaScript ni frameworks.
