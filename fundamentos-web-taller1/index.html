@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi espacio universitario</title>
+</head>
+<body>
+  <header>
+    <h1>Mi espacio universitario</h1>
+    <p>
+      Soy estudiante de Ingeniería de Sistemas en UNICAMACHO y este espacio resume parte de mi proceso
+      académico mientras practico la estructura semántica de una página web con HTML5.
+    </p>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a> |
+      <a href="#intereses">Intereses</a> |
+      <a href="#multimedia">Multimedia</a> |
+      <a href="#horario">Horario</a> |
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <article>
+        <p>
+          Mi nombre es <strong>Alejandro Lopez Salcedo</strong>.
+          Curso la carrera de <em>Ingeniería de Sistemas</em> en <mark>UNICAMACHO</mark>.
+          Este taller me ayuda a fortalecer las bases de la construcción web.
+        </p>
+        <p>
+          Me interesa comprender cómo organizar correctamente la información y presentar contenidos
+          académicos de forma clara para facilitar el aprendizaje.
+        </p>
+      </article>
+
+      <h3>Etiquetas de texto en contexto académico</h3>
+      <p>
+        <abbr title="HyperText Markup Language">HTML</abbr> permite estructurar la información;
+        puedo destacar ideas <strong>importantes</strong>, enfatizar conceptos <em>clave</em>
+        y <mark>marcar</mark> partes que debo repasar antes de una evaluación.
+      </p>
+      <p>
+        <small>Nota académica: este proyecto se desarrolla únicamente con HTML5.</small>
+      </p>
+      <p>
+        En mi planeación cambié la práctica <del>estudiar sin agenda</del> por
+        <ins>estudiar con horarios definidos</ins>.
+      </p>
+      <p>
+        Ejemplos de uso: H<sub>2</sub>O para subíndice y 10<sup>2</sup> = 100 para superíndice.
+      </p>
+      <p>
+        Recomendación de teclado al escribir código: <kbd>Ctrl</kbd> + <kbd>S</kbd> para guardar.
+      </p>
+
+      <blockquote cite="https://www.w3.org/Provider/Style/URI">
+        "Cool URIs don't change."
+      </blockquote>
+      <p><cite>Tim Berners-Lee, W3C</cite></p>
+    </section>
+
+    <section id="intereses">
+      <h2>Intereses</h2>
+
+      <h3>Intereses académicos y tecnológicos</h3>
+      <ul>
+        <li>Desarrollo de software</li>
+        <li>Programación</li>
+        <li>Inteligencia artificial</li>
+        <li>Videojuegos</li>
+        <li>Tecnología</li>
+        <li>Desarrollo web</li>
+      </ul>
+
+      <h3>Tecnologías que me gustaría aprender</h3>
+      <ol>
+        <li>Python para automatización y backend</li>
+        <li>SQL para modelado y consultas de datos</li>
+        <li>React para interfaces de usuario</li>
+      </ol>
+
+      <h3>Lista de definiciones</h3>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Lenguaje que organiza el contenido de una página web.</dd>
+        <dt>CSS</dt>
+        <dd>Lenguaje que define el diseño visual de una página web.</dd>
+        <dt>JavaScript</dt>
+        <dd>Lenguaje que añade interacción y comportamiento dinámico.</dd>
+      </dl>
+
+      <aside>
+        <h4>Enlaces externos de aprendizaje</h4>
+        <p>
+          <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN: HTML</a><br>
+          <a href="https://html.spec.whatwg.org/" target="_blank" rel="noopener noreferrer">WHATWG HTML Living Standard</a><br>
+          <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank" rel="noopener noreferrer">freeCodeCamp: Responsive Web Design</a>
+        </p>
+        <p>
+          Contacto por correo: <a href="mailto:REEMPLAZAR_CORREO@ejemplo.com">REEMPLAZAR_CORREO@ejemplo.com</a>
+        </p>
+      </aside>
+    </section>
+
+    <section id="multimedia">
+      <h2>Multimedia</h2>
+      <p>
+        Coloca los archivos multimedia dentro de la carpeta <strong>multimedia/</strong>
+        usando exactamente estos nombres: imagen1.jpg, imagen2.jpg, audio.mp3 y video.mp4.
+      </p>
+
+      <figure>
+        <img src="multimedia/imagen1.jpg" alt="Estudiante programando en un computador en un entorno universitario">
+        <figcaption>Imagen 1: Práctica de programación en ambiente académico.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="multimedia/imagen2.jpg" alt="Mesa de estudio con portátil y apuntes de tecnología">
+        <figcaption>Imagen 2: Preparación de actividades de desarrollo web.</figcaption>
+      </figure>
+
+      <h3>Audio</h3>
+      <audio controls>
+        <source src="multimedia/audio.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+      </audio>
+
+      <h3>Video</h3>
+      <video controls>
+        <source src="multimedia/video.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+      </video>
+
+      <h3>Recurso incrustado con iframe</h3>
+      <iframe
+        src="https://developer.mozilla.org/es/docs/Web/HTML"
+        title="Documentación de HTML en MDN"
+        width="560"
+        height="315">
+      </iframe>
+    </section>
+
+    <section id="horario">
+      <h2>Horario</h2>
+      <p>Horario de ejemplo para este taller (reemplazable por horario real).</p>
+      <table>
+        <caption>Horario académico de ejemplo</caption>
+        <thead>
+          <tr>
+            <th>Asignatura</th>
+            <th>Día</th>
+            <th>Hora</th>
+            <th>Modalidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Fundamentos Web</td>
+            <td>Lunes</td>
+            <td><time datetime="08:00">08:00</time> - <time datetime="10:00">10:00</time></td>
+            <td>Presencial</td>
+          </tr>
+          <tr>
+            <td>Programación I</td>
+            <td>Martes</td>
+            <td><time datetime="10:00">10:00</time> - <time datetime="12:00">12:00</time></td>
+            <td>Presencial</td>
+          </tr>
+          <tr>
+            <td>Matemáticas Discretas</td>
+            <td>Miércoles</td>
+            <td><time datetime="07:00">07:00</time> - <time datetime="09:00">09:00</time></td>
+            <td>Virtual</td>
+          </tr>
+          <tr>
+            <td>Bases de Datos</td>
+            <td>Jueves</td>
+            <td><time datetime="14:00">14:00</time> - <time datetime="16:00">16:00</time></td>
+            <td>Presencial</td>
+          </tr>
+          <tr>
+            <td>Arquitectura de Computadores</td>
+            <td>Viernes</td>
+            <td><time datetime="09:00">09:00</time> - <time datetime="11:00">11:00</time></td>
+            <td>Presencial</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Formulario de contacto académico</legend>
+
+          <label for="nombre">Nombre completo:</label><br>
+          <input type="text" id="nombre" name="nombre" required><br><br>
+
+          <label for="correo">Correo electrónico:</label><br>
+          <input type="email" id="correo" name="correo" placeholder="REEMPLAZAR_CORREO@ejemplo.com" required><br><br>
+
+          <label for="fecha-nacimiento">Fecha de nacimiento:</label><br>
+          <input type="date" id="fecha-nacimiento" name="fecha-nacimiento"><br><br>
+
+          <label for="semestre">Semestre actual:</label><br>
+          <input type="number" id="semestre" name="semestre" min="1" max="12"><br><br>
+
+          <label for="nivel-html">Nivel de confianza en HTML (1 a 10):</label><br>
+          <input type="range" id="nivel-html" name="nivel-html" min="1" max="10" value="5"><br><br>
+
+          <p>Modalidad preferida:</p>
+          <input type="radio" id="modalidad-presencial" name="modalidad" value="presencial">
+          <label for="modalidad-presencial">Presencial</label><br>
+          <input type="radio" id="modalidad-virtual" name="modalidad" value="virtual">
+          <label for="modalidad-virtual">Virtual</label><br><br>
+
+          <p>Áreas de interés:</p>
+          <input type="checkbox" id="interes-web" name="intereses" value="web">
+          <label for="interes-web">Desarrollo web</label><br>
+          <input type="checkbox" id="interes-ia" name="intereses" value="ia">
+          <label for="interes-ia">Inteligencia artificial</label><br>
+          <input type="checkbox" id="interes-juegos" name="intereses" value="videojuegos">
+          <label for="interes-juegos">Videojuegos</label><br><br>
+
+          <label for="tecnologia">Tecnología a practicar:</label><br>
+          <select id="tecnologia" name="tecnologia">
+            <option value="">Seleccione una opción</option>
+            <option value="html">HTML</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+          </select><br><br>
+
+          <label for="mensaje">Mensaje:</label><br>
+          <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribe aquí tu mensaje."></textarea><br><br>
+
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <section id="extras">
+      <h2>Elementos semánticos adicionales</h2>
+      <details>
+        <summary>Mostrar ejemplo de código HTML</summary>
+        <pre><code>&lt;article&gt;
+  &lt;h3&gt;Ejemplo&lt;/h3&gt;
+  &lt;p&gt;Contenido estructurado con HTML5.&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+      </details>
+
+      <p>Progreso del taller: <progress value="90" max="100">90%</progress></p>
+      <p>Nivel de concentración actual: <meter min="0" max="10" value="8">8 de 10</meter></p>
+      <br>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>Taller 1 - Fundamentos WEB - UNICAMACHO</p>
+    <address>
+      Alejandro Lopez Salcedo<br>
+      Ingeniería de Sistemas<br>
+      UNICAMACHO
+    </address>
+  </footer>
+</body>
+</html>
